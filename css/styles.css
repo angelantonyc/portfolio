@@ -28,7 +28,7 @@
 #work {
   background-color: #45567d;
   margin: 0px;
-  height: 1000px;
+  height: 1200px;
 }
 
 .deck {
@@ -53,7 +53,7 @@
 }
 #contact {
   background-color: #303841;
-  height: 1000px;
+  height: 1500px;
   color: #f0f0f0;
   padding: 40px;
   border-bottom-style: solid;
@@ -74,6 +74,6 @@
 .foot {
   background-color: #303841;
   color: #f0f0f0;
-  padding: 40px 60px;
+  padding: 20px 30px;
   margin-top: 0;
 }
