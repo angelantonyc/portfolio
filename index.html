@@ -22,8 +22,8 @@
   </head>
   <body>
     <!-- Nav bar starts-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light insidenav" >
+      <a class="navbar-brand" href="#"></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -35,14 +35,14 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse insidenav" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#"
+          <a class="nav-item nav-link active insidenav" href="#"
             >Home <span class="sr-only">(current)</span></a
           >
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+          <a class="nav-item nav-link insidenav" href="#about">About</a>
+          <a class="nav-item nav-link insidenav" href="#work">Work</a>
+          <a class="nav-item nav-link insidenav" href="#contact">Contact</a>
         </div>
       </div>
     </nav>
@@ -67,11 +67,12 @@
 
     <!-- Begin work page -->
     <section id="work">
+         <h1 class="workcap">These are some of my projects</h1>
       <div class="container mt-5">
-        <h1 class="workcap">These are some of my projects</h1>
+       
         <!-- Content here -->
-        <div class="card-deck">
-          <div class="card">
+        <div class="card-deck deck-out">
+          <div class="card deck">
             <div class="card-body">
               <h5 class="card-title">My hobby site</h5>
               <img
@@ -80,50 +81,45 @@
                 alt="Card image cap"
               />
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                I have lots of stories to share with you... 
               </p>
             </div>
             <div class="card-footer cardfoot">
-              <p class="text"><a class="hobby" href="#">hobbysite</a></p>
+              <p class="text"><a class="hobby" href="https://angelantonyc.github.io/bshobbysite/">hobbysite</a></p>
             </div>
           </div>
 
-          <div class="card">
+          <div class="card deck">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Story time</h5>
               <img
                 class="card-img-top"
-                src="./images/home1.jpeg"
+                src="./images/coffee.jpg"
                 alt="Card image cap"
               />
               <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
+                A lot about my favourite places
               </p>
             </div>
             <div class="card-footer cardfoot">
-              <p class="text"><a class="hobby" href="#">hobbysite</a></p>
+              <p class="text"><a class="hobby" href="https://angelantonyc.github.io/bshobbysite/">hobbysite</a></p>
             </div>
           </div>
-          <div class="card">
+          <div class="card deck">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Catch-up</h5>
               <img
                 class="card-img-top"
-                src="./images/home1.jpeg"
+                src="./images/contact.jpg"
                 alt="Card image cap"
               />
 
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                For a catch-up you can contact me via email or social media...
               </p>
             </div>
             <div class="card-footer cardfoot">
-              <p class="text"><a class="hobby" href="#">hobbysite</a></p>
+              <p class="text"><a class="hobby" href="https://angelantonyc.github.io/bshobbysite/">hobbysite</a></p>
             </div>
           </div>
         </div>
@@ -135,9 +131,11 @@
     <!-- <br /><br /><br /> -->
     <section id="contact">
       <!-- Start contact page -->
-      <div class="container" id="contact">
+      <div class="container cont">
         <!-- Content here -->
         <h1 class="catchup">Lets have a catch-up...</h1>
+        <br>
+        <p class="catchup">Do you have similar stories?</p>
 
         <div class="links">
           <a href="index.html">Facebook</a>
@@ -153,7 +151,7 @@
     <!-- End Contact page -->
 
     <!-- FOOTER -->
-    <footer class="container foot">
+    <footer class="foot">
       <p class="float-right">
         &copy; Created for assessment <a href="#">Back to top</a>
       </p>
