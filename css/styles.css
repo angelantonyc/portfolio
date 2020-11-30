@@ -1,0 +1,52 @@
+
+*{
+    background-color: #303841;
+}.links{
+        text-align: center;
+}
+#about{
+    background-color: #303841;
+    height:1000px;
+    margin:0px;
+}
+.name{
+        background-color: #303841;
+        color:#F0F0F0;
+        text-align: center;
+        padding-top:500px;
+}
+.lead{
+   color:#BE3144; 
+   padding-top:30px;
+}
+
+#work{
+    background-color:#45567D;
+    margin:0px;
+    height:1000px;
+}
+.workcap{
+    text-align: center;
+    text-decoration:underline;
+    color:#F0F0F0;
+    padding-bottom:80px;
+    padding-top:80px;
+}
+.cardfoot{
+    background-color:#303841;
+    margin:0px;
+}
+#contact{
+    background-color:#303841;
+    height:1000px;
+    color:#F0F0F0;
+    padding:40px;
+}
+.catchup{
+    text-align: center;
+    padding: 100px;;
+}
+
+.foot{
+        background-color:#303841;
+}
