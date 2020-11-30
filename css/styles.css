@@ -68,7 +68,7 @@
   /* padding: 50px; */
 }
 .links {
-  padding: 400px 10px 10px;
+  padding-top: 50px;
 }
 
 .foot {
@@ -76,4 +76,5 @@
   color: #f0f0f0;
   padding: 20px 30px;
   margin-top: 0;
+  font-size:0.2rem;
 }
